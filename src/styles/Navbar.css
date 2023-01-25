@@ -1,0 +1,75 @@
+.navbar_contain {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navbar_img_uno img{
+    height: 100%;
+    width: 150px;
+}
+
+.navbar_info {
+    text-align: left;
+    width: 60%;
+    color: #1f74a0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar_info h2 {
+    margin: 0;
+}
+
+.navbar_info p {
+    margin: 0;
+}
+
+
+
+.navbar_img_dos img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) { 
+    
+    .navbar_contain {
+    height: 70px;
+    width: 100%;
+}
+    .navbar_img_uno img{
+    width: 70px;
+}
+
+.navbar_info {
+    width: 50%;
+}
+.navbar_info h2 {
+    font-size: 15px;
+}
+
+.navbar_info p {
+    font-size: 10px;
+}
+
+.navbar_img_dos img{
+    width: 80%;
+    height: 60px;
+}
+
+}
+
+
+
+@media screen and (min-width: 767px) and (max-width:1023px) {
+
+    .navbar_contain {
+    width: 100%;
+}
+    .navbar_img_dos img{
+    width: 80%;
+    height: 100px;
+}
+}

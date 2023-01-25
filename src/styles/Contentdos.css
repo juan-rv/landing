@@ -1,0 +1,54 @@
+.contain_contentDos {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    border: solid black;
+    margin: 20px;
+}
+
+.info h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #1f74a0;
+}
+
+.info p {
+
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.info_h {
+    border: solid black;
+    margin: 20px;
+}
+
+.info_h h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 15px;
+    color: red;
+}
+
+.info_h p {
+
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* responsive design para telefono movil */
+
+@media screen and (max-width: 767px) { 
+    .contain_contentDos {
+    display: grid;
+    grid-template-columns: auto;
+}
+}
